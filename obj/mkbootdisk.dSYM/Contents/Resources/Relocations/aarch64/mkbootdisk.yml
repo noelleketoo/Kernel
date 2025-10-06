@@ -1,0 +1,19 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     'obj/mkbootdisk'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z5usagev, symObjAddr: 0x0, symBinAddr: 0x100002D7C, symSize: 0x58 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _diskfd, symObjAddr: 0x3340, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _maxoff, symObjAddr: 0x3348, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x98, offset: 0x98, size: 0x8, addend: 0x0, symName: _curoff, symObjAddr: 0x3350, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0xC1, size: 0x8, addend: 0x0, symName: __ZL16multiboot_header, symObjAddr: 0x112C, symBinAddr: 0x100003F8C, symSize: 0x0 }
+  - { offsetInCU: 0x27D, offset: 0x27D, size: 0x8, addend: 0x0, symName: __Z5usagev, symObjAddr: 0x0, symBinAddr: 0x100002D7C, symSize: 0x58 }
+  - { offsetInCU: 0x296, offset: 0x296, size: 0x8, addend: 0x0, symName: __Z10fopencheckPKc, symObjAddr: 0x58, symBinAddr: 0x100002DD4, symSize: 0x98 }
+  - { offsetInCU: 0x2D0, offset: 0x2D0, size: 0x8, addend: 0x0, symName: __Z9diskwritePKvm, symObjAddr: 0xF0, symBinAddr: 0x100002E6C, symSize: 0x17C }
+  - { offsetInCU: 0x322, offset: 0x322, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x26C, symBinAddr: 0x100002FE8, symSize: 0x5EC }
+  - { offsetInCU: 0x3FE, offset: 0x3FE, size: 0x8, addend: 0x0, symName: __Z14find_partitionxxi, symObjAddr: 0x858, symBinAddr: 0x1000035D4, symSize: 0x364 }
+  - { offsetInCU: 0x4B1, offset: 0x4B1, size: 0x8, addend: 0x0, symName: __Z12do_multibootPKc, symObjAddr: 0xBBC, symBinAddr: 0x100003938, symSize: 0x1A4 }
+  - { offsetInCU: 0x508, offset: 0x508, size: 0x8, addend: 0x0, symName: __Z7isdigiti, symObjAddr: 0xD60, symBinAddr: 0x100003ADC, symSize: 0x28 }
+  - { offsetInCU: 0x534, offset: 0x534, size: 0x8, addend: 0x0, symName: __ZL8readsectPvj, symObjAddr: 0xD88, symBinAddr: 0x100003B04, symSize: 0xEC }
+  - { offsetInCU: 0x586, offset: 0x586, size: 0x8, addend: 0x0, symName: __Z9__isctypeim, symObjAddr: 0xE74, symBinAddr: 0x100003BF0, symSize: 0x80 }
+...
